@@ -1,0 +1,99 @@
+/* Body styles */
+body {
+    background-color:lightskyblue;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  /* Heading styles */
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  /* Form styles */
+  #todo-form {
+    margin-bottom: 20px;
+  }
+  
+  #todo-input {
+    padding: 10px;
+    width: 300px;
+  }
+  
+   button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Task lists styles */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .task-list {
+    border-radius: 8px;
+    padding: 20px;
+    flex-basis: 50%;
+  }
+  
+  #todo-list {
+    background-color:cyan;
+  }
+  
+  #finished-list {
+    background-color:cyan;
+  }
+  
+  /* Task item styles */
+  li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .task-item {
+    flex-grow: 1;
+  }
+  
+  button {
+    background-color: blue;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  /* Styling for finished tasks */
+  .finished-task {
+    text-decoration: line-through;
+    color: #999;
+  }
+  
+  /* Layout styles */
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  
+    .task-list {
+      margin-top: 20px;
+    }
+  }
+  
